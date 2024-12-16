@@ -20,13 +20,24 @@ The project is organized as follows:
 
  
 ├── data_preprocessing.py     # Cleans and prepares the transaction data
+
 ├── graph_construction.py     # Builds graph structures (nodes = accounts, edges = transactions)
+
 ├── gat_dgnn_model.py         # Defines the GAT-enhanced DGNN model architecture
+
 ├── train.py                  # Handles model training
+
 ├── evaluate.py               # Evaluates model performance (AUC, precision, recall)
+
 ├── visualization.py          # Plots confusion matrix, PCA, AUC-ROC, and other visualizations
+
 ├── utils.py                  # Utility functions (logging, metrics, etc.)
+
 └── GAT-enhanced-DGNN.ipynb   # Jupyter Notebook containing the complete process
+
+
+
+
 Technologies Used
 Programming Language: Python
 Machine Learning Libraries: PyTorch, NumPy, Scikit-learn
