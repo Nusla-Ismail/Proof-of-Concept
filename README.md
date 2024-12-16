@@ -18,8 +18,7 @@ Data preprocessing involves cleaning missing values, constructing graph-based re
 Code Structure
 The project is organized as follows:
 
-bash
-Copy code
+ 
 ├── data_preprocessing.py     # Cleans and prepares the transaction data
 ├── graph_construction.py     # Builds graph structures (nodes = accounts, edges = transactions)
 ├── gat_dgnn_model.py         # Defines the GAT-enhanced DGNN model architecture
